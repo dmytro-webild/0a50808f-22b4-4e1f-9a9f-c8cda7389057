@@ -57,7 +57,7 @@ export default function ServicesPage() {
           ]}
           enableKpiAnimation={true}
           buttons={[{ text: "Zadzwoń teraz", href: "tel:788595600" }]}
-          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg?_wi=2"
           imageAlt="Profesjonalna instalacja grzewcza"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -74,10 +74,10 @@ export default function ServicesPage() {
               title: "Grzewcze",
               description: "Montaż kotłów CO, grzejników, ogrzewania podłogowego, pomp ciepła i kolektorów. Budowa dużych kotłowni z kaskadą kotłów oraz modernizacja systemów grzewczych.",
               phoneOne: {
-                imageSrc: "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg?_wi=3",
               },
               phoneTwo: {
-                imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=4",
               },
             },
             {
@@ -85,10 +85,10 @@ export default function ServicesPage() {
               title: "Gazowe",
               description: "Instalacja gazowa, montaż kotłów gazowych i przepływowych podgrzewaczy CWU. Usuwanie nieszczelności i przeglądy instalacji gazowych z certyfikacją.",
               phoneOne: {
-                imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=5",
               },
               phoneTwo: {
-                imageSrc: "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=4",
               },
             },
             {
@@ -96,10 +96,10 @@ export default function ServicesPage() {
               title: "Wodno-kanalizacyjne",
               description: "Nowe instalacje wodne i kanalizacyjne, naprawa istniejących instalacji. Montaż wodomierzy, zasobników i przepływowych podgrzewaczy.",
               phoneOne: {
-                imageSrc: "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=5",
               },
               phoneTwo: {
-                imageSrc: "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg?_wi=3",
               },
             },
             {
@@ -107,10 +107,10 @@ export default function ServicesPage() {
               title: "Odnawialne źródła energii",
               description: "Kolektory słoneczne i zasobniki solarne. Rozwiązania ekologiczne zmniejszające koszty ogrzewania wody nawet o 60% i wspomagania centralnego ogrzewania o 30%.",
               phoneOne: {
-                imageSrc: "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg?_wi=4",
               },
               phoneTwo: {
-                imageSrc: "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg",
+                imageSrc: "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg?_wi=2",
               },
             },
           ]}
