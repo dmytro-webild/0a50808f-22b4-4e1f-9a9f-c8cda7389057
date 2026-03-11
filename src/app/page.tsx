@@ -74,7 +74,7 @@ export default function HomePage() {
           ]}
           enableKpiAnimation={true}
           buttons={[{ text: "Zadzwoń teraz", href: "tel:788595600" }]}
-          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg?_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250554038-1eafreat.webp"
           imageAlt="Profesjonalna instalacja grzewcza"
           mediaAnimation="slide-up"
           imagePosition="right"
