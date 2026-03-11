@@ -24,7 +24,6 @@ const navItems = [
   { name: "Strona główna", id: "/" },
   { name: "Serwis", id: "/serwis" },
   { name: "Usługi", id: "/services" },
-  { name: "Nasze certyfikaty", id: "/certyfikaty" },
 ];
 
 export default function HomePage() {
@@ -48,7 +47,6 @@ export default function HomePage() {
             { name: "Strona główna", id: "/" },
             { name: "Serwis", id: "/serwis" },
             { name: "Usługi", id: "/services" },
-            { name: "Nasze certyfikaty", id: "/certyfikaty" },
           ]}
           button={{
             text: "Zadzwoń: 788 595 600",            href: "tel:788595600"
