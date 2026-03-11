@@ -76,7 +76,7 @@ export default function HomePage() {
           ]}
           enableKpiAnimation={true}
           buttons={[{ text: "Zadzwoń teraz", href: "tel:788595600" }]}
-          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg?_wi=1"
           imageAlt="Profesjonalna instalacja grzewcza"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -156,12 +156,12 @@ export default function HomePage() {
                 "Montaż kotłów CO, grzejników, ogrzewania podłogowego, pomp ciepła i kolektorów. Budowa dużych kotłowni z kaskadą kotłów oraz modernizacja systemów grzewczych.",
               phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg",
+                  "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg?_wi=1",
                 imageAlt: "Instalacja grzewcza",
               },
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg",
+                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=1",
                 imageAlt: "System grzewczy",
               },
             },
@@ -172,12 +172,12 @@ export default function HomePage() {
                 "Instalacja gazowa, montaż kotłów gazowych i przepływowych podgrzewaczy CWU. Usuwanie nieszczelności i przeglądy instalacji gazowych z certyfikacją.",
               phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg",
+                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=2",
                 imageAlt: "Instalacja gazowa",
               },
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg",
+                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=1",
                 imageAlt: "Usługa gazowa",
               },
             },
@@ -188,12 +188,12 @@ export default function HomePage() {
                 "Nowe instalacje wodne i kanalizacyjne, naprawa istniejących instalacji. Montaż wodomierzy, zasobników i przepływowych podgrzewaczy.",
               phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg",
+                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=2",
                 imageAlt: "Instalacja wodna",
               },
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg",
+                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg?_wi=1",
                 imageAlt: "Systemy odnawialne",
               },
             },
@@ -204,12 +204,12 @@ export default function HomePage() {
                 "Kolektory słoneczne i zasobniki solarne. Rozwiązania ekologiczne zmniejszające koszty ogrzewania wody nawet o 60% i wspomagania centralnego ogrzewania o 30%.",
               phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg",
+                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg?_wi=2",
                 imageAlt: "Systemy solarne",
               },
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg",
+                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg?_wi=1",
                 imageAlt: "Panele słoneczne",
               },
             },
@@ -233,7 +233,7 @@ export default function HomePage() {
               excerpt:
                 "Autoryzacja do instalacji i serwisu urządzeń grzewczych marki Bosch",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg",
+                "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg?_wi=1",
               imageAlt: "Certyfikat Bosch",
               authorName: "PIO-HYDROP",
               authorAvatar:
@@ -246,7 +246,7 @@ export default function HomePage() {
               title: "Certyfikat instalacji grzewczych",
               excerpt: "Uprawnienia do montażu i naprawy systemów grzewczych i CO",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg",
+                "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg?_wi=1",
               imageAlt: "Certyfikat instalacji grzewczych",
               authorName: "PIO-HYDROP",
               authorAvatar:
@@ -259,7 +259,7 @@ export default function HomePage() {
               title: "Certyfikat instalacji gazowych",
               excerpt: "Uprawnienia do montażu i przeglądu instalacji gazowych",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg",
+                "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg?_wi=1",
               imageAlt: "Certyfikat instalacji gazowych",
               authorName: "PIO-HYDROP",
               authorAvatar:
@@ -272,7 +272,7 @@ export default function HomePage() {
               title: "Certyfikat instalacji hydraulicznych",
               excerpt: "Uprawnienia do montażu systemów wodno-kanalizacyjnych",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg",
+                "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg?_wi=1",
               imageAlt: "Certyfikat instalacji hydraulicznych",
               authorName: "PIO-HYDROP",
               authorAvatar:
