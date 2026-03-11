@@ -20,7 +20,7 @@ export default function CertificatesPage() {
       defaultButtonVariant="directional-hover"
       defaultTextAnimation="background-highlight"
       borderRadius="rounded"
-      contentWidth="large"
+      contentWidth="mediumLarge"
       sizing="largeSizeMediumTitles"
       background="blurBottom"
       cardStyle="gradient-radial"
