@@ -1,0 +1,155 @@
+"use client";
+
+import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
+import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
+import BlogCardOne from "@/components/sections/blog/BlogCardOne";
+import AboutMetric from "@/components/sections/about/AboutMetric";
+import ContactCenter from "@/components/sections/contact/ContactCenter";
+import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
+import Link from "next/link";
+import { Zap, Droplets, Flame, Wind } from "lucide-react";
+
+export default function CertificatesPage() {
+  const navItems = [
+    { name: "Strona główna", id: "home" },
+    { name: "Serwis", id: "service" },
+    { name: "Usługi", id: "services" },
+    { name: "Nasze certyfikaty", id: "certificates" },
+    { name: "Kontakt", id: "contact" },
+  ];
+
+  return (
+    <ThemeProvider
+      defaultButtonVariant="directional-hover"
+      defaultTextAnimation="background-highlight"
+      borderRadius="rounded"
+      contentWidth="small"
+      sizing="largeSmall"
+      background="blurBottom"
+      cardStyle="gradient-radial"
+      primaryButtonStyle="flat"
+      secondaryButtonStyle="glass"
+      headingFontWeight="semibold"
+    >
+      <div id="nav" data-section="nav">
+        <NavbarLayoutFloatingInline
+          brandName="PIO-HYDROP"
+          navItems={navItems}
+          button={{
+            text: "Zadzwoń: 788 595 600",
+            href: "tel:788595600",
+          }}
+          animateOnLoad={true}
+        />
+      </div>
+
+      <div id="about" data-section="about">
+        <AboutMetric
+          title="PIO-HYDROP buduje zaufanie klientów dzięki profesjonalnej obsłudze i autoryzowanemu serwisowi. Wieloletnie doświadczenie pozwala na fachowe doradztwo techniczne i estetyczny montaż urządzeń."
+          metrics={[
+            {
+              icon: Zap,
+              label: "Kotły gazowe",
+              value: "Bosch",
+            },
+            {
+              icon: Droplets,
+              label: "Zasobniki",
+              value: "Profesjonalne",
+            },
+            {
+              icon: Flame,
+              label: "Paliwa stałe",
+              value: "Ekogroszek",
+            },
+            {
+              icon: Wind,
+              label: "Systemy solarne",
+              value: "Odnawialne",
+            },
+          ]}
+          metricsAnimation="slide-up"
+          useInvertedBackground={false}
+        />
+      </div>
+
+      <div id="certifications" data-section="certifications">
+        <BlogCardOne
+          blogs={[
+            {
+              id: "1",
+              category: "Certyfikat",
+              title: "Bosch Thermotechnika - Partner Autoryzowany",
+              excerpt: "Autoryzacja do instalacji i serwisu urządzeń grzewczych marki Bosch",
+              imageSrc: "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg",
+              imageAlt: "Certyfikat Bosch",
+              authorName: "PIO-HYDROP",
+              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",
+              date: "2024",
+            },
+            {
+              id: "2",
+              category: "Uprawnienie",
+              title: "Certyfikat instalacji grzewczych",
+              excerpt: "Uprawnienia do montażu i naprawy systemów grzewczych i CO",
+              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg",
+              imageAlt: "Certyfikat instalacji grzewczych",
+              authorName: "PIO-HYDROP",
+              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",
+              date: "2024",
+            },
+            {
+              id: "3",
+              category: "Uprawnienie",
+              title: "Certyfikat instalacji gazowych",
+              excerpt: "Uprawnienia do montażu i przeglądu instalacji gazowych",
+              imageSrc: "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg",
+              imageAlt: "Certyfikat instalacji gazowych",
+              authorName: "PIO-HYDROP",
+              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",
+              date: "2024",
+            },
+            {
+              id: "4",
+              category: "Uprawnienie",
+              title: "Certyfikat instalacji hydraulicznych",
+              excerpt: "Uprawnienia do montażu systemów wodno-kanalizacyjnych",
+              imageSrc: "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg",
+              imageAlt: "Certyfikat instalacji hydraulicznych",
+              authorName: "PIO-HYDROP",
+              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",
+              date: "2024",
+            },
+          ]}
+          title="Nasze certyfikaty i uprawnienia"
+          description="Firma posiada certyfikaty i uprawnienia potwierdzające kwalifikacje w zakresie instalacji grzewczych, gazowych i hydraulicznych."
+          animationType="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={false}
+          carouselMode="buttons"
+        />
+      </div>
+
+      <div id="contact" data-section="contact">
+        <ContactCenter
+          tag="Kontakt"
+          title="Skontaktuj się z nami"
+          description="Masz pytania? Zadzwoń do nas lub wyślij wiadomość. Jesteśmy zawsze gotowi pomóc w rozwiązaniu Twoich potrzeb grzewczych i hydraulicznych."
+          background={{ variant: "rotated-rays-animated" }}
+          useInvertedBackground={false}
+          inputPlaceholder="Twój email"
+          buttonText="Wyślij"
+          termsText="Zgadzasz się z naszą polityką prywatności. Możesz się wypisać w każdej chwili."
+        />
+      </div>
+
+      <div id="footer" data-section="footer">
+        <FooterLogoReveal
+          logoText="PIO-HYDROP"
+          leftLink={{ text: "Polityka Prywatności", href: "#" }}
+          rightLink={{ text: "Warunki Użytkowania", href: "#" }}
+        />
+      </div>
+    </ThemeProvider>
+  );
+}
