@@ -28,7 +28,6 @@ export default function ServicesPage() {
             { name: "Strona główna", id: "/" },
             { name: "Serwis", id: "/serwis" },
             { name: "Usługi", id: "/services" },
-            { name: "Nasze certyfikaty", id: "/certificates" },
           ]}
           button={{
             text: "Zadzwoń: 788 595 600",            href: "tel:788595600"}}
