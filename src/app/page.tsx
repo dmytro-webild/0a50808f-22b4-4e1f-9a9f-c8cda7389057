@@ -197,49 +197,49 @@ export default function HomePage() {
             {
               id: "1",              category: "Certyfikat",              title: "CERTYFIKAT Z URZĘDU DOZORU TECHNICZNEGO DLA PRZEDSIĘBIORCÓW",              excerpt:
                 "Certyfikat potwierdzający uprawnienia do wykonywania prac budowlanych w zakresie instalacji grzewczych, gazowych i hydraulicznych.",              imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252653243-xd8mpd5j.jpg",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252653243-xd8mpd5j.jpg?_wi=1",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
             {
               id: "2",              category: "Uprawnienie",              title: "OŚWIADCZENIE INSTALATORA, UPRAWNIENIA ELEKTRYCZNE/GAZOWE, ANALIZATOR SPALIN",              excerpt:
                 "Oświadczenie z uprawnieniami do montażu instalacji elektrycznych, gazowych oraz pomiarów spalin urządzeń grzewczych.",              imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252665828-fac5mlhh.jpg",              imageAlt: "Oświadczenie Instalatora",              authorName: "PIO-HYDROP",              authorAvatar:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252665828-fac5mlhh.jpg?_wi=1",              imageAlt: "Oświadczenie Instalatora",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
             {
               id: "3",              category: "Uprawnienie",              title: "CERTYFIKAT BOSCH - MONTAŻ ORAZ ROZRUCH URZĄDZEŃ GRZEWCZYCH",              excerpt:
                 "Certyfikat autoryzujący do montażu i rozruchu urządzeń grzewczych marki Junkers-Bosch z pełnym wsparciem technicznym.",              imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252676876-p056dmho.jpg",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252676876-p056dmho.jpg?_wi=1",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
             {
               id: "4",              category: "Uprawnienie",              title: "SZKOLENIE TECHNICZNE - POMPY CIEPŁA NA POZIOMIE ZAAWANSOWANYM",              excerpt:
                 "Zaświadczenie z szkolenia zaawansowanego w zakresie doboru, montażu oraz uruchamiania pomp ciepła dla efektywnego ogrzewania.",              imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252684891-dlf8jkl3.jpg",              imageAlt: "Zaświadczenie Pompy Ciepła",              authorName: "PIO-HYDROP",              authorAvatar:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252684891-dlf8jkl3.jpg?_wi=1",              imageAlt: "Zaświadczenie Pompy Ciepła",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
             {
               id: "5",              category: "Certyfikat",              title: "UPRAWNIENIA DO INSTALACJI WODNO-KANALIZACYJNYCH",              excerpt:
                 "Certyfikat potwierdzający kwalifikacje do montażu i naprawy instalacji wodnych oraz kanalizacyjnych w domach i firmach.",              imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252665828-fac5mlhh.jpg",              imageAlt: "Uprawnienia Hydrauliczne",              authorName: "PIO-HYDROP",              authorAvatar:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252665828-fac5mlhh.jpg?_wi=2",              imageAlt: "Uprawnienia Hydrauliczne",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
             {
               id: "6",              category: "Uprawnienie",              title: "CERTYFIKAT INSTALACJI KOLEKTORÓW SŁONECZNYCH",              excerpt:
                 "Certyfikat do montażu i uruchamiania instalacji kolektorów słonecznych dla efektywnego wspomagania ogrzewania.",              imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252676876-p056dmho.jpg",              imageAlt: "Kolektory Słoneczne",              authorName: "PIO-HYDROP",              authorAvatar:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252676876-p056dmho.jpg?_wi=2",              imageAlt: "Kolektory Słoneczne",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
             {
               id: "7",              category: "Uprawnienie",              title: "UPRAWNIENIA DO PRZEGLĄDÓW OKRESOWYCH URZĄDZEŃ GRZEWCZYCH",              excerpt:
                 "Certyfikat umożliwiający przeprowadzanie przeglądów okresowych i konserwacji urządzeń grzewczych z dokumentacją.",              imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252653243-xd8mpd5j.jpg",              imageAlt: "Przeglądy Periodyczne",              authorName: "PIO-HYDROP",              authorAvatar:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252653243-xd8mpd5j.jpg?_wi=2",              imageAlt: "Przeglądy Periodyczne",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
             {
               id: "8",              category: "Uprawnienie",              title: "GWARANCJA JAKOŚCI I SERWISU SPECJALISTYCZNEGO",              excerpt:
                 "Poświadczenie profesjonalizmu, doświadczenia oraz gwarancji jakości dla wszystkich usług instalacyjnych i serwisowych.",              imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252684891-dlf8jkl3.jpg",              imageAlt: "Gwarancja Jakości",              authorName: "PIO-HYDROP",              authorAvatar:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252684891-dlf8jkl3.jpg?_wi=2",              imageAlt: "Gwarancja Jakości",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
           ]}
