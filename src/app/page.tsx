@@ -86,10 +86,10 @@ export default function HomePage() {
           metrics={[
             {
               id: "weekday",              icon: Clock,
-              title: "Pon - Pt",              value: "08:00-18:00"},
+              title: "Pon - Pt",              value: "8:00-18:00"},
             {
               id: "saturday",              icon: Calendar,
-              title: "Sobota",              value: "08:00 - 16:00"},
+              title: "Sobota",              value: "8:00-16:00"},
             {
               id: "sunday",              icon: Moon,
               title: "Niedziela",              value: "Zamknięte"},
@@ -106,16 +106,16 @@ export default function HomePage() {
           metrics={[
             {
               icon: Zap,
-              label: "Kotły gazowe",              value: "Bosch"},
+              label: "Kotły gazowe",              value: ""},
             {
               icon: Droplets,
-              label: "Zasobniki",              value: "Profesjonalne"},
+              label: "Zasobniki",              value: ""},
             {
               icon: Flame,
-              label: "Paliwa stałe",              value: "Ekogroszek"},
+              label: "Paliwa stałe",              value: ""},
             {
               icon: Wind,
-              label: "Systemy solarne",              value: "Odnawialne"},
+              label: "Systemy solarne",              value: ""},
           ]}
           metricsAnimation="slide-up"
           useInvertedBackground={false}
@@ -181,21 +181,21 @@ export default function HomePage() {
           description="Firma posiada certyfikaty i uprawnienia potwierdzające kwalifikacje w zakresie instalacji grzewczych, gazowych i hydraulicznych."
           blogs={[
             {
-              id: "1",              category: "Certyfikat",              title: "Bosch Thermotechnika - Partner Autoryzowany",              excerpt:
-                "Autoryzacja do instalacji i serwisu urządzeń grzewczych marki Bosch",              imageSrc:
-                "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar:
+              id: "1",              category: "Certyfikat",              title: "CERTYFIKAT Z URZĘDU DOZORU TECHNICZNEGO DLA PRZEDSIĘBIORCÓW ",              excerpt:
+                "",              imageSrc:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252653243-xd8mpd5j.jpg",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
             {
-              id: "2",              category: "Uprawnienie",              title: "Certyfikat instalacji grzewczych",              excerpt: "Uprawnienia do montażu i naprawy systemów grzewczych i CO",              imageSrc:
-                "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg",              imageAlt: "Certyfikat instalacji grzewczych",              authorName: "PIO-HYDROP",              authorAvatar:
+              id: "2",              category: "Uprawnienie",              title: "OŚWIADCZENIE  INSTALATORA, UPRAWNIENIA ELEKLTRYCZNE/ GAZOWE,                ANALIZATOR SPALIN",              excerpt: "",              imageSrc:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252665828-fac5mlhh.jpg",              imageAlt: "OŚWIADCZENIE  INSTALATORA, UPRAWNIENIA ELEKLTRYCZNE/ GAZOWE,                ANALIZATOR SPALIN",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
             {
-              id: "3",              category: "Uprawnienie",              title: "Certyfikat instalacji gazowych",              excerpt: "Uprawnienia do montażu i przeglądu instalacji gazowych",              imageSrc:
-                "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg",              imageAlt: "Certyfikat instalacji gazowych",              authorName: "PIO-HYDROP",              authorAvatar:
+              id: "3",              category: "Uprawnienie",              title: "CERTYFIKAT BOSCH         MONTAŻ ORAZ ROZRUCH URZĄDZEŃ GRZEWCZYCH MARKI JUNKERS-BOSCH ",              excerpt: "",              imageSrc:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252676876-p056dmho.jpg",              imageAlt: "CERTYFIKAT BOSCH         MONTAŻ ORAZ ROZRUCH URZĄDZEŃ GRZEWCZYCH MARKI JUNKERS-BOSCH ",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
             {
-              id: "4",              category: "Uprawnienie",              title: "Certyfikat instalacji hydraulicznych",              excerpt: "Uprawnienia do montażu systemów wodno-kanalizacyjnych",              imageSrc:
-                "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg",              imageAlt: "Certyfikat instalacji hydraulicznych",              authorName: "PIO-HYDROP",              authorAvatar:
+              id: "4",              category: "Uprawnienie",              title: "ZAŚWIADCZENIE  W SZKOLENIU TECHNICZNYM NA POZIOMIE ZAAWANSOWANYM Z ZAKRESU DOBORU I MONTAŻU ORAZ URUCHAMIANIA POMP CIEPŁA",              excerpt: "",              imageSrc:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252684891-dlf8jkl3.jpg",              imageAlt: "ZAŚWIADCZENIE  W SZKOLENIU TECHNICZNYM NA POZIOMIE ZAAWANSOWANYM Z ZAKRESU DOBORU I MONTAŻU ORAZ URUCHAMIANIA POMP CIEPŁA",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
           ]}
           animationType="slide-up"
