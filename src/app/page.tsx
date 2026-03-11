@@ -8,7 +8,6 @@ import MetricCardThree from "@/components/sections/metrics/MetricCardThree";
 import AboutMetric from "@/components/sections/about/AboutMetric";
 import FeatureCardNine from "@/components/sections/feature/FeatureCardNine";
 import BlogCardOne from "@/components/sections/blog/BlogCardOne";
-import ContactCenter from "@/components/sections/contact/ContactCenter";
 import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
 import {
   Shield,
@@ -19,15 +18,13 @@ import {
   Droplets,
   Flame,
   Wind,
-  Phone,
 } from "lucide-react";
 
 const navItems = [
   { name: "Strona główna", id: "/" },
   { name: "Serwis", id: "/serwis" },
   { name: "Usługi", id: "/services" },
-  { name: "Nasze certyfikaty", id: "/certificates" },
-  { name: "Kontakt", id: "/contact" },
+  { name: "Nasze certyfikaty", id: "/certyfikaty" },
 ];
 
 export default function HomePage() {
@@ -51,7 +48,7 @@ export default function HomePage() {
             { name: "Strona główna", id: "/" },
             { name: "Serwis", id: "/serwis" },
             { name: "Usługi", id: "/services" },
-            { name: "Nasze certyfikaty", id: "/certificates" },
+            { name: "Nasze certyfikaty", id: "/certyfikaty" },
           ]}
           button={{
             text: "Zadzwoń: 788 595 600",            href: "tel:788595600"}}
@@ -205,21 +202,6 @@ export default function HomePage() {
           textboxLayout="default"
           useInvertedBackground={false}
           carouselMode="buttons"
-        />
-      </div>
-
-      <div id="contact" data-section="contact">
-        <ContactCenter
-          tag="Kontakt"
-          title="Skontaktuj się z nami"
-          description="Masz pytania? Zadzwoń do nas lub wyślij wiadomość. Jesteśmy zawsze gotowi pomóc w rozwiązaniu Twoich potrzeb grzewczych i hydraulicznych."
-          tagIcon={Phone}
-          tagAnimation="slide-up"
-          background={{ variant: "rotated-rays-animated" }}
-          useInvertedBackground={false}
-          inputPlaceholder="Twój email"
-          buttonText="Wyślij"
-          termsText="Zgadzasz się z naszą polityką prywatności. Możesz się wypisać w każdej chwili."
         />
       </div>
 
