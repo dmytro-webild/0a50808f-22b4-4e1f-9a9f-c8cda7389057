@@ -135,37 +135,37 @@ export default function HomePage() {
               title: "Grzewcze",              description:
                 "Montaż kotłów CO, grzejników, ogrzewania podłogowego, pomp ciepła i kolektorów. Budowa dużych kotłowni z kaskadą kotłów oraz modernizacja systemów grzewczych.",              phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg?_wi=1",                imageAlt: "Instalacja grzewcza"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250601198-6ch5m3ws.webp",                imageAlt: "Instalacja grzewcza"},
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=1",                imageAlt: "System grzewczy"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250610220-7l7n6ghi.jpg",                imageAlt: "System grzewczy"},
             },
             {
               id: 2,
               title: "Gazowe",              description:
                 "Instalacja gazowa, montaż kotłów gazowych i przepływowych podgrzewaczy CWU. Usuwanie nieszczelności i przeglądy instalacji gazowych z certyfikacją.",              phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=2",                imageAlt: "Instalacja gazowa"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250625728-5n2x8r8p.jpg",                imageAlt: "Instalacja gazowa"},
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=1",                imageAlt: "Usługa gazowa"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250636319-q3m6tvwy.webp",                imageAlt: "Usługa gazowa"},
             },
             {
               id: 3,
               title: "Wodno-kanalizacyjne",              description:
                 "Nowe instalacje wodne i kanalizacyjne, naprawa istniejących instalacji. Montaż wodomierzy, zasobników i przepływowych podgrzewaczy.",              phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=2",                imageAlt: "Instalacja wodna"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250647710-l276o6ma.jpg",                imageAlt: "Instalacja wodna"},
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg?_wi=1",                imageAlt: "Systemy odnawialne"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250659047-0fqm2wic.jpg",                imageAlt: "Systemy odnawialne"},
             },
             {
               id: 4,
               title: "Odnawialne źródła energii",              description:
                 "Kolektory słoneczne i zasobniki solarne. Rozwiązania ekologiczne zmniejszające koszty ogrzewania wody nawet o 60% i wspomagania centralnego ogrzewania o 30%.",              phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg?_wi=2",                imageAlt: "Systemy solarne"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250684617-zsswpqdy.jpg",                imageAlt: "Systemy solarne"},
               phoneTwo: {
                 imageSrc:
                   "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg?_wi=1",                imageAlt: "Panele słoneczne"},
