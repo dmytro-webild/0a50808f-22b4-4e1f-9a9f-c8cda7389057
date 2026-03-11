@@ -103,30 +103,6 @@ export default function CertificatesPage() {
             },
             {
               id: "12",              category: "Uprawnienie",              title: "Certyfikat 12",              excerpt: "Opis certyfikatu 12",              imageSrc: "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg?_wi=2",              imageAlt: "Certyfikat 12",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "13",              category: "Certyfikat",              title: "Certyfikat 13",              excerpt: "Opis certyfikatu 13",              imageSrc: "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg?_wi=2",              imageAlt: "Certyfikat 13",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "14",              category: "Uprawnienie",              title: "Certyfikat 14",              excerpt: "Opis certyfikatu 14",              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg?_wi=2",              imageAlt: "Certyfikat 14",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "15",              category: "Uprawnienie",              title: "Certyfikat 15",              excerpt: "Opis certyfikatu 15",              imageSrc: "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg?_wi=2",              imageAlt: "Certyfikat 15",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "16",              category: "Certyfikat",              title: "Certyfikat 16",              excerpt: "Opis certyfikatu 16",              imageSrc: "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg?_wi=2",              imageAlt: "Certyfikat 16",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "17",              category: "Uprawnienie",              title: "Certyfikat 17",              excerpt: "Opis certyfikatu 17",              imageSrc: "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg?_wi=2",              imageAlt: "Certyfikat 17",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "18",              category: "Certyfikat",              title: "Certyfikat 18",              excerpt: "Opis certyfikatu 18",              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg?_wi=2",              imageAlt: "Certyfikat 18",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "19",              category: "Uprawnienie",              title: "Certyfikat 19",              excerpt: "Opis certyfikatu 19",              imageSrc: "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg?_wi=2",              imageAlt: "Certyfikat 19",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "20",              category: "Uprawnienie",              title: "Certyfikat 20",              excerpt: "Opis certyfikatu 20",              imageSrc: "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg?_wi=2",              imageAlt: "Certyfikat 20",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             }
           ]}
           title="Nasze certyfikaty i uprawnienia"
