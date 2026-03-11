@@ -86,6 +86,7 @@ export default function ContactPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
+          valueClassName="text-xs md:text-sm"
         />
       </div>
 
