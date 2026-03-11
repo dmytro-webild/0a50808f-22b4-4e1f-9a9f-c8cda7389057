@@ -38,7 +38,7 @@ export default function HomePage() {
       borderRadius="rounded"
       contentWidth="small"
       sizing="largeSmall"
-      background="blurBottom"
+      background="circleGradient"
       cardStyle="gradient-radial"
       primaryButtonStyle="flat"
       secondaryButtonStyle="glass"
@@ -54,9 +54,7 @@ export default function HomePage() {
             { name: "Nasze certyfikaty", id: "/certificates" },
           ]}
           button={{
-            text: "Zadzwoń: 788 595 600",
-            href: "tel:788595600",
-          }}
+            text: "Zadzwoń: 788 595 600",            href: "tel:788595600"}}
           animateOnLoad={true}
         />
       </div>
@@ -68,7 +66,7 @@ export default function HomePage() {
           tag="Autoryzowany Partner Bosch Termotechnika"
           tagIcon={Shield}
           tagAnimation="slide-up"
-          background={{ variant: "blurBottom" }}
+          background={{ variant: "glowing-orb" }}
           kpis={[
             { value: "15+", label: "Lat doświadczenia" },
             { value: "500+", label: "Zadowolonych klientów" },
@@ -76,7 +74,7 @@ export default function HomePage() {
           ]}
           enableKpiAnimation={true}
           buttons={[{ text: "Zadzwoń teraz", href: "tel:788595600" }]}
-          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg?_wi=1"
+          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg"
           imageAlt="Profesjonalna instalacja grzewcza"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -90,23 +88,14 @@ export default function HomePage() {
           description="Zawsze dostępni dla naszych klientów"
           metrics={[
             {
-              id: "weekday",
-              icon: Clock,
-              title: "Pon - Pt",
-              value: "08:00 - 18:00",
-            },
+              id: "weekday",              icon: Clock,
+              title: "Pon - Pt",              value: "08:00 - 18:00"},
             {
-              id: "saturday",
-              icon: Calendar,
-              title: "Sobota",
-              value: "08:00 - 16:00",
-            },
+              id: "saturday",              icon: Calendar,
+              title: "Sobota",              value: "08:00 - 16:00"},
             {
-              id: "sunday",
-              icon: Moon,
-              title: "Niedziela",
-              value: "Zamknięte",
-            },
+              id: "sunday",              icon: Moon,
+              title: "Niedziela",              value: "Zamknięte"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -116,28 +105,20 @@ export default function HomePage() {
 
       <div id="about" data-section="about">
         <AboutMetric
-          title="PIO-HYDROP buduje zaufanie klientów dzięki profesjonalnej obsłudze i autoryzowanemu serwisie. Wieloletnie doświadczenie pozwala na fachowe doradztwo techniczne i estetyczny montaż urządzeń."
+          title="PIO-HYDROP buduje zaufanie klientów dzięki profesjonalnej obsłudze i autoryzowanemu serwisowi. Wieloletnie doświadczenie pozwala na fachowe doradztwo techniczne i estetyczny montaż urządzeń."
           metrics={[
             {
               icon: Zap,
-              label: "Kotły gazowe",
-              value: "Bosch",
-            },
+              label: "Kotły gazowe",              value: "Bosch"},
             {
               icon: Droplets,
-              label: "Zasobniki",
-              value: "Profesjonalne",
-            },
+              label: "Zasobniki",              value: "Profesjonalne"},
             {
               icon: Flame,
-              label: "Paliwa stałe",
-              value: "Ekogroszek",
-            },
+              label: "Paliwa stałe",              value: "Ekogroszek"},
             {
               icon: Wind,
-              label: "Systemy solarne",
-              value: "Odnawialne",
-            },
+              label: "Systemy solarne",              value: "Odnawialne"},
           ]}
           metricsAnimation="slide-up"
           useInvertedBackground={false}
@@ -151,67 +132,43 @@ export default function HomePage() {
           features={[
             {
               id: 1,
-              title: "Grzewcze",
-              description:
-                "Montaż kotłów CO, grzejników, ogrzewania podłogowego, pomp ciepła i kolektorów. Budowa dużych kotłowni z kaskadą kotłów oraz modernizacja systemów grzewczych.",
-              phoneOne: {
+              title: "Grzewcze",              description:
+                "Montaż kotłów CO, grzejników, ogrzewania podłogowego, pomp ciepła i kolektorów. Budowa dużych kotłowni z kaskadą kotłów oraz modernizacja systemów grzewczych.",              phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg?_wi=1",
-                imageAlt: "Instalacja grzewcza",
-              },
+                  "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg",                imageAlt: "Instalacja grzewcza"},
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=1",
-                imageAlt: "System grzewczy",
-              },
+                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg",                imageAlt: "System grzewczy"},
             },
             {
               id: 2,
-              title: "Gazowe",
-              description:
-                "Instalacja gazowa, montaż kotłów gazowych i przepływowych podgrzewaczy CWU. Usuwanie nieszczelności i przeglądy instalacji gazowych z certyfikacją.",
-              phoneOne: {
+              title: "Gazowe",              description:
+                "Instalacja gazowa, montaż kotłów gazowych i przepływowych podgrzewaczy CWU. Usuwanie nieszczelności i przeglądy instalacji gazowych z certyfikacją.",              phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=2",
-                imageAlt: "Instalacja gazowa",
-              },
+                  "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg",                imageAlt: "Instalacja gazowa"},
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=1",
-                imageAlt: "Usługa gazowa",
-              },
+                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg",                imageAlt: "Usługa gazowa"},
             },
             {
               id: 3,
-              title: "Wodno-kanalizacyjne",
-              description:
-                "Nowe instalacje wodne i kanalizacyjne, naprawa istniejących instalacji. Montaż wodomierzy, zasobników i przepływowych podgrzewaczy.",
-              phoneOne: {
+              title: "Wodno-kanalizacyjne",              description:
+                "Nowe instalacje wodne i kanalizacyjne, naprawa istniejących instalacji. Montaż wodomierzy, zasobników i przepływowych podgrzewaczy.",              phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=2",
-                imageAlt: "Instalacja wodna",
-              },
+                  "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg",                imageAlt: "Instalacja wodna"},
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg?_wi=1",
-                imageAlt: "Systemy odnawialne",
-              },
+                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg",                imageAlt: "Systemy odnawialne"},
             },
             {
               id: 4,
-              title: "Odnawialne źródła energii",
-              description:
-                "Kolektory słoneczne i zasobniki solarne. Rozwiązania ekologiczne zmniejszające koszty ogrzewania wody nawet o 60% i wspomagania centralnego ogrzewania o 30%.",
-              phoneOne: {
+              title: "Odnawialne źródła energii",              description:
+                "Kolektory słoneczne i zasobniki solarne. Rozwiązania ekologiczne zmniejszające koszty ogrzewania wody nawet o 60% i wspomagania centralnego ogrzewania o 30%.",              phoneOne: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg?_wi=2",
-                imageAlt: "Systemy solarne",
-              },
+                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15560.jpg",                imageAlt: "Systemy solarne"},
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg?_wi=1",
-                imageAlt: "Panele słoneczne",
-              },
+                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg",                imageAlt: "Panele słoneczne"},
             },
           ]}
           showStepNumbers={true}
@@ -227,58 +184,22 @@ export default function HomePage() {
           description="Firma posiada certyfikaty i uprawnienia potwierdzające kwalifikacje w zakresie instalacji grzewczych, gazowych i hydraulicznych."
           blogs={[
             {
-              id: "1",
-              category: "Certyfikat",
-              title: "Bosch Thermotechnika - Partner Autoryzowany",
-              excerpt:
-                "Autoryzacja do instalacji i serwisu urządzeń grzewczych marki Bosch",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg?_wi=1",
-              imageAlt: "Certyfikat Bosch",
-              authorName: "PIO-HYDROP",
-              authorAvatar:
-                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",
-              date: "2024",
-            },
+              id: "1",              category: "Certyfikat",              title: "Bosch Thermotechnika - Partner Autoryzowany",              excerpt:
+                "Autoryzacja do instalacji i serwisu urządzeń grzewczych marki Bosch",              imageSrc:
+                "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar:
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
             {
-              id: "2",
-              category: "Uprawnienie",
-              title: "Certyfikat instalacji grzewczych",
-              excerpt: "Uprawnienia do montażu i naprawy systemów grzewczych i CO",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg?_wi=1",
-              imageAlt: "Certyfikat instalacji grzewczych",
-              authorName: "PIO-HYDROP",
-              authorAvatar:
-                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",
-              date: "2024",
-            },
+              id: "2",              category: "Uprawnienie",              title: "Certyfikat instalacji grzewczych",              excerpt: "Uprawnienia do montażu i naprawy systemów grzewczych i CO",              imageSrc:
+                "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg",              imageAlt: "Certyfikat instalacji grzewczych",              authorName: "PIO-HYDROP",              authorAvatar:
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
             {
-              id: "3",
-              category: "Uprawnienie",
-              title: "Certyfikat instalacji gazowych",
-              excerpt: "Uprawnienia do montażu i przeglądu instalacji gazowych",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg?_wi=1",
-              imageAlt: "Certyfikat instalacji gazowych",
-              authorName: "PIO-HYDROP",
-              authorAvatar:
-                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",
-              date: "2024",
-            },
+              id: "3",              category: "Uprawnienie",              title: "Certyfikat instalacji gazowych",              excerpt: "Uprawnienia do montażu i przeglądu instalacji gazowych",              imageSrc:
+                "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg",              imageAlt: "Certyfikat instalacji gazowych",              authorName: "PIO-HYDROP",              authorAvatar:
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
             {
-              id: "4",
-              category: "Uprawnienie",
-              title: "Certyfikat instalacji hydraulicznych",
-              excerpt: "Uprawnienia do montażu systemów wodno-kanalizacyjnych",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg?_wi=1",
-              imageAlt: "Certyfikat instalacji hydraulicznych",
-              authorName: "PIO-HYDROP",
-              authorAvatar:
-                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",
-              date: "2024",
-            },
+              id: "4",              category: "Uprawnienie",              title: "Certyfikat instalacji hydraulicznych",              excerpt: "Uprawnienia do montażu systemów wodno-kanalizacyjnych",              imageSrc:
+                "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg",              imageAlt: "Certyfikat instalacji hydraulicznych",              authorName: "PIO-HYDROP",              authorAvatar:
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -306,13 +227,9 @@ export default function HomePage() {
         <FooterLogoReveal
           logoText="PIO-HYDROP"
           leftLink={{
-            text: "Polityka Prywatności",
-            href: "/privacy",
-          }}
+            text: "Polityka Prywatności",            href: "/privacy"}}
           rightLink={{
-            text: "Warunki Użytkowania",
-            href: "/terms",
-          }}
+            text: "Warunki Użytkowania",            href: "/terms"}}
         />
       </div>
     </ThemeProvider>
