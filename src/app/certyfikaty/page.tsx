@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
-import BlogCardOne from "@/components/sections/blog/BlogCardOne";
 import AboutMetric from "@/components/sections/about/AboutMetric";
 import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
 import { Zap, Droplets, Flame, Wind } from "lucide-react";
@@ -66,52 +65,162 @@ export default function CertificatesPage() {
       </div>
 
       <div id="certifications" data-section="certifications">
-        <BlogCardOne
-          blogs={[
-            {
-              id: "1",              category: "Certyfikat",              title: "Bosch Thermotechnika - Partner Autoryzowany",              excerpt: "Autoryzacja do instalacji i serwisu urządzeń grzewczych marki Bosch",              imageSrc: "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg?_wi=2",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "2",              category: "Uprawnienie",              title: "Certyfikat instalacji grzewczych",              excerpt: "Uprawnienia do montażu i naprawy systemów grzewczych i CO",              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg?_wi=2",              imageAlt: "Certyfikat instalacji grzewczych",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "3",              category: "Uprawnienie",              title: "Certyfikat instalacji gazowych",              excerpt: "Uprawnienia do montażu i przeglądu instalacji gazowych",              imageSrc: "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg?_wi=2",              imageAlt: "Certyfikat instalacji gazowych",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "4",              category: "Uprawnienie",              title: "Certyfikat instalacji hydraulicznych",              excerpt: "Uprawnienia do montażu systemów wodno-kanalizacyjnych",              imageSrc: "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg?_wi=2",              imageAlt: "Certyfikat instalacji hydraulicznych",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "5",              category: "Certyfikat",              title: "Certyfikat 5",              excerpt: "Opis certyfikatu 5",              imageSrc: "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg?_wi=2",              imageAlt: "Certyfikat 5",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "6",              category: "Uprawnienie",              title: "Certyfikat 6",              excerpt: "Opis certyfikatu 6",              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg?_wi=2",              imageAlt: "Certyfikat 6",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "7",              category: "Uprawnienie",              title: "Certyfikat 7",              excerpt: "Opis certyfikatu 7",              imageSrc: "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg?_wi=2",              imageAlt: "Certyfikat 7",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "8",              category: "Certyfikat",              title: "Certyfikat 8",              excerpt: "Opis certyfikatu 8",              imageSrc: "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg?_wi=2",              imageAlt: "Certyfikat 8",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "9",              category: "Uprawnienie",              title: "Certyfikat 9",              excerpt: "Opis certyfikatu 9",              imageSrc: "http://img.b2bpic.net/free-photo/business-colleagues-with-papers_74855-1758.jpg?_wi=2",              imageAlt: "Certyfikat 9",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "10",              category: "Certyfikat",              title: "Certyfikat 10",              excerpt: "Opis certyfikatu 10",              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-working-as-plumber_23-2150746293.jpg?_wi=2",              imageAlt: "Certyfikat 10",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "11",              category: "Uprawnienie",              title: "Certyfikat 11",              excerpt: "Opis certyfikatu 11",              imageSrc: "http://img.b2bpic.net/free-photo/auto-repairmen-cooperating-while-working-laptop-car-service-workshop_637285-9428.jpg?_wi=2",              imageAlt: "Certyfikat 11",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            },
-            {
-              id: "12",              category: "Uprawnienie",              title: "Certyfikat 12",              excerpt: "Opis certyfikatu 12",              imageSrc: "http://img.b2bpic.net/free-photo/distraught-auto-repairman-talking-his-manager-about-problematic-reports-workshop_637285-7578.jpg?_wi=2",              imageAlt: "Certyfikat 12",              authorName: "PIO-HYDROP",              authorAvatar: "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
-            }
-          ]}
-          title="Nasze certyfikaty i uprawnienia"
-          description="Firma posiada certyfikaty i uprawnienia potwierdzające kwalifikacje w zakresie instalacji grzewczych, gazowych i hydraulicznych."
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
-          carouselMode="buttons"
-        />
+        <div className="w-full py-16 md:py-24 px-4 md:px-0 bg-gradient-to-br from-background to-card rounded-lg">
+          <div className="max-w-6xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-16 md:mb-20">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Nasze certyfikaty i uprawnienia</h2>
+              <p className="text-lg text-foreground/70 max-w-2xl mx-auto">Firma posiada certyfikaty i uprawnienia potwierdzające kwalifikacje w zakresie instalacji grzewczych, gazowych i hydraulicznych.</p>
+            </div>
+
+            {/* 12 Certificate Cards Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Certificate 1 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">📜</div>
+                    <p className="text-sm text-foreground/60">Certyfikat Bosch</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Bosch Thermotechnika</h3>
+                <p className="text-foreground/70 text-sm">Autoryzacja do instalacji i serwisu urządzeń grzewczych marki Bosch.</p>
+              </div>
+
+              {/* Certificate 2 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">🔥</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Instalacje grzewcze</h3>
+                <p className="text-foreground/70 text-sm">Uprawnienia do montażu i naprawy systemów grzewczych i CO.</p>
+              </div>
+
+              {/* Certificate 3 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">⚙️</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Instalacje gazowe</h3>
+                <p className="text-foreground/70 text-sm">Uprawnienia do montażu i przeglądu instalacji gazowych.</p>
+              </div>
+
+              {/* Certificate 4 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">💧</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Instalacje hydrauliczne</h3>
+                <p className="text-foreground/70 text-sm">Uprawnienia do montażu systemów wodno-kanalizacyjnych.</p>
+              </div>
+
+              {/* Certificate 5 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">☀️</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Systemy solarne</h3>
+                <p className="text-foreground/70 text-sm">Certyfikat do montażu i uruchamiania instalacji kolektorów słonecznych.</p>
+              </div>
+
+              {/* Certificate 6 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">❄️</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Pompy ciepła</h3>
+                <p className="text-foreground/70 text-sm">Szkolenie zaawansowane w doboru, montażu i uruchamianiu pomp ciepła.</p>
+              </div>
+
+              {/* Certificate 7 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">🏢</div>
+                    <p className="text-sm text-foreground/60">Certyfikat</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">UDT dla Przedsiębiorców</h3>
+                <p className="text-foreground/70 text-sm">Certyfikat z Urzędu Dozoru Technicznego dla wykonawców prac.</p>
+              </div>
+
+              {/* Certificate 8 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">⚡</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Instalacje elektryczne</h3>
+                <p className="text-foreground/70 text-sm">Oświadczenie instalatora z uprawnieniami elektrycznymi i gazowymi.</p>
+              </div>
+
+              {/* Certificate 9 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">🔬</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Analizator spalin</h3>
+                <p className="text-foreground/70 text-sm">Uprawnienia do przeprowadzania pomiarów spalin urządzeń grzewczych.</p>
+              </div>
+
+              {/* Certificate 10 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">📋</div>
+                    <p className="text-sm text-foreground/60">Certyfikat</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Przeglądy okresowe</h3>
+                <p className="text-foreground/70 text-sm">Uprawnienia do przeprowadzania przeglądów okresowych urządzeń grzewczych.</p>
+              </div>
+
+              {/* Certificate 11 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">🛠️</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Serwis specjalistyczny</h3>
+                <p className="text-foreground/70 text-sm">Certyfikat do wykonywania prac serwisowych i konserwacyjnych.</p>
+              </div>
+
+              {/* Certificate 12 */}
+              <div className="bg-card border border-accent/10 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="w-full h-48 bg-gradient-to-br from-primary-cta/10 to-primary-cta/5 rounded-lg mb-4 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-5xl mb-2">✓</div>
+                    <p className="text-sm text-foreground/60">Uprawnienie</p>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Gwarancja jakości</h3>
+                <p className="text-foreground/70 text-sm">Poświadczenie profesjonalizmu i gwarancji jakości wszystkich usług.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="footer" data-section="footer">
