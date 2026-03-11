@@ -17,7 +17,7 @@ export default function ContactPage() {
       borderRadius="rounded"
       contentWidth="small"
       sizing="largeSmall"
-      background="blurBottom"
+      background="circleGradient"
       cardStyle="gradient-radial"
       primaryButtonStyle="flat"
       secondaryButtonStyle="glass"
@@ -34,8 +34,7 @@ export default function ContactPage() {
             { name: "Kontakt", id: "contact" }
           ]}
           button={{
-            text: "Zadzwoń: 788 595 600",
-            href: "tel:788595600"
+            text: "Zadzwoń: 788 595 600",            href: "tel:788595600"
           }}
           animateOnLoad={true}
         />
@@ -47,7 +46,7 @@ export default function ContactPage() {
           description="Gotowi odpowiedzieć na Twoje pytania dotyczące instalacji grzewczych, gazowych, hydraulicznych i odnawialnych źródeł energii. Zadzwoń, wyślij email lub wypełnij formularz poniżej."
           tag="Autoryzowany Partner Bosch Termotechnika"
           tagIcon={Shield}
-          background={{ variant: "blurBottom" }}
+          background={{ variant: "glowing-orb" }}
           kpis={[
             { value: "788 595 600", label: "Numer telefonu" },
             { value: "24/7", label: "Pomoc techniczna" },
@@ -57,7 +56,7 @@ export default function ContactPage() {
           buttons={[
             { text: "Zadzwoń teraz", href: "tel:788595600" }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg?_wi=3"
+          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg"
           imageAlt="Profesjonalna instalacja grzewcza"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -72,22 +71,16 @@ export default function ContactPage() {
           description="Zawsze dostępni dla naszych klientów"
           metrics={[
             {
-              id: "weekday",
-              icon: Clock,
-              title: "Pon - Pt",
-              value: "08:00 - 18:00"
+              id: "weekday",              icon: Clock,
+              title: "Pon - Pt",              value: "08:00 - 18:00"
             },
             {
-              id: "saturday",
-              icon: Calendar,
-              title: "Sobota",
-              value: "08:00 - 16:00"
+              id: "saturday",              icon: Calendar,
+              title: "Sobota",              value: "08:00 - 16:00"
             },
             {
-              id: "sunday",
-              icon: Moon,
-              title: "Niedziela",
-              value: "Zamknięte"
+              id: "sunday",              icon: Moon,
+              title: "Niedziela",              value: "Zamknięte"
             }
           ]}
           animationType="slide-up"
@@ -114,12 +107,10 @@ export default function ContactPage() {
         <FooterLogoReveal
           logoText="PIO-HYDROP"
           leftLink={{
-            text: "Polityka Prywatności",
-            href: "#"
+            text: "Polityka Prywatności",            href: "#"
           }}
           rightLink={{
-            text: "Warunki Użytkowania",
-            href: "#"
+            text: "Warunki Użytkowania",            href: "#"
           }}
         />
       </div>
