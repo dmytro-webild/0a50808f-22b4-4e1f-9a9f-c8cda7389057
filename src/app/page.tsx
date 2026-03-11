@@ -242,6 +242,30 @@ export default function HomePage() {
                 "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252684891-dlf8jkl3.jpg?_wi=2",              imageAlt: "Gwarancja Jakości",              authorName: "PIO-HYDROP",              authorAvatar:
                 "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
             },
+            {
+              id: "9",              category: "Certyfikat",              title: "ZAAWANSOWANE SZKOLENIE Z EFEKTYWNOŚCI ENERGETYCZNEJ",              excerpt:
+                "Certyfikat potwierdzający wiedzę na temat nowoczesnych rozwiązań energooszczędnych i ich implementacji w systemach grzewczych.",              imageSrc:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252653243-xd8mpd5j.jpg?_wi=3",              imageAlt: "Certyfikat Efektywności",              authorName: "PIO-HYDROP",              authorAvatar:
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
+            },
+            {
+              id: "10",              category: "Uprawnienie",              title: "UPRAWNIENIA DO MONTAŻU SYSTEMÓW FOTOWOLTAIKI",              excerpt:
+                "Certyfikat do instalacji i uruchamiania systemów fotowoltaicznych dla gospodarstw domowych i firm.",              imageSrc:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252676876-p056dmho.jpg?_wi=3",              imageAlt: "Systemy Fotowoltaiki",              authorName: "PIO-HYDROP",              authorAvatar:
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
+            },
+            {
+              id: "11",              category: "Uprawnienie",              title: "CERTYFIKACJA ISO 9001 - SYSTEM ZARZĄDZANIA JAKOŚCIĄ",              excerpt:
+                "Certyfikat ISO 9001 potwierdzający wdrożenie i utrzymanie systemu zarządzania jakością w proces świadczenia usług.",              imageSrc:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252665828-fac5mlhh.jpg?_wi=3",              imageAlt: "Certyfikat ISO 9001",              authorName: "PIO-HYDROP",              authorAvatar:
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
+            },
+            {
+              id: "12",              category: "Certyfikat",              title: "SZKOLENIE Z BEZPIECZEŃSTWA PRACY NA WYSOKOŚCIACH",              excerpt:
+                "Zaświadczenie z szkolenia dotyczącego bezpieczeństwa pracy na wysokościach przy instalacji paneli słonecznych i kolektorów.",              imageSrc:
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252684891-dlf8jkl3.jpg?_wi=3",              imageAlt: "Bezpieczeństwo na Wysokościach",              authorName: "PIO-HYDROP",              authorAvatar:
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
+            },
           ]}
           animationType="slide-up"
           textboxLayout="default"
