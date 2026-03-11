@@ -86,7 +86,7 @@ export default function HomePage() {
           metrics={[
             {
               id: "weekday",              icon: Clock,
-              title: "Pon - Pt",              value: "08:00 - 18:00"},
+              title: "Pon - Pt",              value: "08:00-18:00"},
             {
               id: "saturday",              icon: Calendar,
               title: "Sobota",              value: "08:00 - 16:00"},
@@ -124,8 +124,8 @@ export default function HomePage() {
 
       <div id="services-overview" data-section="services-overview">
         <FeatureCardNine
-          title="Nasze usługi instalacyjne"
-          description="Kompleksowa oferta dla każdych potrzeb grzewczych, gazowych i hydraulicznych"
+          title="Nasze usługi serwisowe oraz instalacyjne"
+          description="Kompleksowa oferta dla każdych potrzeb grzewczych, gazowych, hydraulicznych"
           features={[
             {
               id: 1,
