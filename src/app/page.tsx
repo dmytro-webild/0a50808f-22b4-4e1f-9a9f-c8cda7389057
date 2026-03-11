@@ -58,7 +58,7 @@ export default function HomePage() {
 
       <div id="hero" data-section="hero">
         <HeroSplitKpi
-          title="Profesjonalne instalacje grzewcze, gazowe i hydrauliczne"
+          title="Profesjonalny serwis oraz instalacje grzewcze, gazowe, hydrauliczne, OZE"
           description="Firma PIO-HYDROP oferuje kompleksowe usługi instalacyjne dla domów jedno- i wielorodzinnych oraz firm. Specjalizujemy się w instalacjach grzewczych, gazowych, wodno-kanalizacyjnych oraz odnawialnych źródłach energii. Naszym priorytetem jest zadowolenie klienta i wysoka jakość usług."
           tag="Autoryzowany Partner Bosch Termotechnika"
           tagIcon={Shield}
@@ -82,7 +82,7 @@ export default function HomePage() {
       <div id="hours" data-section="hours">
         <MetricCardThree
           title="Godziny pracy"
-          description="Zawsze dostępni dla naszych klientów"
+          description=""
           metrics={[
             {
               id: "weekday",              icon: Clock,
