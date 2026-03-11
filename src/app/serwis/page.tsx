@@ -87,7 +87,7 @@ export default function ServicePage() {
               title: "Przeglądy okresowe",
               excerpt: "Konserwacja i przeglądy systemów grzewczych i gazowych z certyfikacją",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg",
+                "http://img.b2bpic.net/free-photo/view-exposed-plumbing-pipes_23-2150990679.jpg?_wi=2",
               imageAlt: "Przeglądy systemów",
               authorName: "PIO-HYDROP",
               authorAvatar:
@@ -100,7 +100,7 @@ export default function ServicePage() {
               title: "Naprawy awaryjne",
               excerpt: "Szybka react na awarie - serwis 24/7 dla pilnych spraw",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-person-near-heater_23-2149284074.jpg?_wi=3",
               imageAlt: "Naprawy awaryjne",
               authorName: "PIO-HYDROP",
               authorAvatar:
@@ -113,7 +113,7 @@ export default function ServicePage() {
               title: "Modernizacja systemów",
               excerpt: "Ulepszanie istniejących systemów grzewczych i hydraulicznych",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg",
+                "http://img.b2bpic.net/free-photo/female-mechanic-smiling-while-repairing-car_1170-1227.jpg?_wi=3",
               imageAlt: "Modernizacja systemów",
               authorName: "PIO-HYDROP",
               authorAvatar:
