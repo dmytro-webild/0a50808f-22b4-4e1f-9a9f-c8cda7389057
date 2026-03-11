@@ -56,7 +56,7 @@ export default function ContactPage() {
           buttons={[
             { text: "Zadzwoń teraz", href: "tel:788595600" }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/man-drinking-hot-beverage-energy-crisis_23-2150061899.jpg?_wi=2"
           imageAlt="Profesjonalna instalacja grzewcza"
           mediaAnimation="slide-up"
           imagePosition="right"
