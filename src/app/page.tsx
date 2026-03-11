@@ -51,7 +51,8 @@ export default function HomePage() {
             { name: "Nasze certyfikaty", id: "/certyfikaty" },
           ]}
           button={{
-            text: "Zadzwoń: 788 595 600",            href: "tel:788595600"}}
+            text: "Zadzwoń: 788 595 600",            href: "tel:788595600"
+          }}
           animateOnLoad={true}
         />
       </div>
@@ -86,13 +87,16 @@ export default function HomePage() {
           metrics={[
             {
               id: "weekday",              icon: Clock,
-              title: "Pon - Pt",              value: "8:00-18:00"},
+              title: "Pon - Pt",              value: "8:00-18:00"
+            },
             {
               id: "saturday",              icon: Calendar,
-              title: "Sobota",              value: "8:00-16:00"},
+              title: "Sobota",              value: "8:00-16:00"
+            },
             {
               id: "sunday",              icon: Moon,
-              title: "Niedziela",              value: "Zamknięte"},
+              title: "Niedziela",              value: "Zamknięte"
+            },
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -106,16 +110,20 @@ export default function HomePage() {
           metrics={[
             {
               icon: Zap,
-              label: "Kotły gazowe",              value: ""},
+              label: "Kotły gazowe",              value: "50+"
+            },
             {
               icon: Droplets,
-              label: "Zasobniki",              value: ""},
+              label: "Zasobniki",              value: "30+"
+            },
             {
               icon: Flame,
-              label: "Paliwa stałe",              value: ""},
+              label: "Paliwa stałe",              value: "25+"
+            },
             {
               icon: Wind,
-              label: "Systemy solarne",              value: ""},
+              label: "Systemy solarne",              value: "40+"
+            },
           ]}
           metricsAnimation="slide-up"
           useInvertedBackground={false}
@@ -132,40 +140,48 @@ export default function HomePage() {
               title: "Grzewcze",              description:
                 "Montaż kotłów CO, grzejników, ogrzewania podłogowego, pomp ciepła i kolektorów. Budowa dużych kotłowni z kaskadą kotłów oraz modernizacja systemów grzewczych.",              phoneOne: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250601198-6ch5m3ws.webp",                imageAlt: "Instalacja grzewcza"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250601198-6ch5m3ws.webp",                imageAlt: "Instalacja grzewcza"
+              },
               phoneTwo: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250610220-7l7n6ghi.jpg",                imageAlt: "System grzewczy"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250610220-7l7n6ghi.jpg",                imageAlt: "System grzewczy"
+              },
             },
             {
               id: 2,
               title: "Gazowe",              description:
                 "Instalacja gazowa, montaż kotłów gazowych i przepływowych podgrzewaczy CWU. Usuwanie nieszczelności i przeglądy instalacji gazowych z certyfikacją.",              phoneOne: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250625728-5n2x8r8p.jpg",                imageAlt: "Instalacja gazowa"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250625728-5n2x8r8p.jpg",                imageAlt: "Instalacja gazowa"
+              },
               phoneTwo: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250636319-q3m6tvwy.webp",                imageAlt: "Usługa gazowa"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250636319-q3m6tvwy.webp",                imageAlt: "Usługa gazowa"
+              },
             },
             {
               id: 3,
               title: "Wodno-kanalizacyjne",              description:
                 "Nowe instalacje wodne i kanalizacyjne, naprawa istniejących instalacji. Montaż wodomierzy, zasobników i przepływowych podgrzewaczy.",              phoneOne: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250647710-l276o6ma.jpg",                imageAlt: "Instalacja wodna"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250647710-l276o6ma.jpg",                imageAlt: "Instalacja wodna"
+              },
               phoneTwo: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250659047-0fqm2wic.jpg",                imageAlt: "Systemy odnawialne"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250659047-0fqm2wic.jpg",                imageAlt: "Systemy odnawialne"
+              },
             },
             {
               id: 4,
               title: "Odnawialne źródła energii",              description:
                 "Kolektory słoneczne i zasobniki solarne. Rozwiązania ekologiczne zmniejszające koszty ogrzewania wody nawet o 60% i wspomagania centralnego ogrzewania o 30%.",              phoneOne: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250684617-zsswpqdy.jpg",                imageAlt: "Systemy solarne"},
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773250684617-zsswpqdy.jpg",                imageAlt: "Systemy solarne"
+              },
               phoneTwo: {
                 imageSrc:
-                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg?_wi=1",                imageAlt: "Panele słoneczne"},
+                  "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15556.jpg?_wi=1",                imageAlt: "Panele słoneczne"
+              },
             },
           ]}
           showStepNumbers={true}
@@ -184,19 +200,23 @@ export default function HomePage() {
               id: "1",              category: "Certyfikat",              title: "CERTYFIKAT Z URZĘDU DOZORU TECHNICZNEGO DLA PRZEDSIĘBIORCÓW ",              excerpt:
                 "",              imageSrc:
                 "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252653243-xd8mpd5j.jpg",              imageAlt: "Certyfikat Bosch",              authorName: "PIO-HYDROP",              authorAvatar:
-                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
+            },
             {
               id: "2",              category: "Uprawnienie",              title: "OŚWIADCZENIE  INSTALATORA, UPRAWNIENIA ELEKLTRYCZNE/ GAZOWE,                ANALIZATOR SPALIN",              excerpt: "",              imageSrc:
                 "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252665828-fac5mlhh.jpg",              imageAlt: "OŚWIADCZENIE  INSTALATORA, UPRAWNIENIA ELEKLTRYCZNE/ GAZOWE,                ANALIZATOR SPALIN",              authorName: "PIO-HYDROP",              authorAvatar:
-                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
+            },
             {
               id: "3",              category: "Uprawnienie",              title: "CERTYFIKAT BOSCH         MONTAŻ ORAZ ROZRUCH URZĄDZEŃ GRZEWCZYCH MARKI JUNKERS-BOSCH ",              excerpt: "",              imageSrc:
                 "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252676876-p056dmho.jpg",              imageAlt: "CERTYFIKAT BOSCH         MONTAŻ ORAZ ROZRUCH URZĄDZEŃ GRZEWCZYCH MARKI JUNKERS-BOSCH ",              authorName: "PIO-HYDROP",              authorAvatar:
-                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
+            },
             {
               id: "4",              category: "Uprawnienie",              title: "ZAŚWIADCZENIE  W SZKOLENIU TECHNICZNYM NA POZIOMIE ZAAWANSOWANYM Z ZAKRESU DOBORU I MONTAŻU ORAZ URUCHAMIANIA POMP CIEPŁA",              excerpt: "",              imageSrc:
                 "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AoCNtx7MJ2lPRxPrXpDU1XjnGp/uploaded-1773252684891-dlf8jkl3.jpg",              imageAlt: "ZAŚWIADCZENIE  W SZKOLENIU TECHNICZNYM NA POZIOMIE ZAAWANSOWANYM Z ZAKRESU DOBORU I MONTAŻU ORAZ URUCHAMIANIA POMP CIEPŁA",              authorName: "PIO-HYDROP",              authorAvatar:
-                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"},
+                "http://img.b2bpic.net/free-photo/electric-jigsaw-with-saw-wood-hands-carpenter_169016-52838.jpg",              date: "2024"
+            },
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -209,9 +229,11 @@ export default function HomePage() {
         <FooterLogoReveal
           logoText="PIO-HYDROP"
           leftLink={{
-            text: "Polityka Prywatności",            href: "/privacy"}}
+            text: "Polityka Prywatności",            href: "/privacy"
+          }}
           rightLink={{
-            text: "Warunki Użytkowania",            href: "/terms"}}
+            text: "Warunki Użytkowania",            href: "/terms"
+          }}
         />
       </div>
     </ThemeProvider>
